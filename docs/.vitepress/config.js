@@ -3,6 +3,9 @@ export default {
     description: '🎉 Detalk is a simple comment plugin.',
     lang: 'zh-CN',
     lastUpdated: true,
+    head: [
+        ["script", { src: "https://cdn.jsdelivr.net/gh/detalkjs/client@master/dist/detalk.js" }],
+    ],
     themeConfig: {
         siteTitle: 'Detalk.js',
         sidebar: [
