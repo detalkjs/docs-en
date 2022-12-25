@@ -27,3 +27,21 @@ Detalk 可以 100% 兼容的运行在 Deta 平台上。使用下方的按键即�
 
 > 目前此方式一个账号只能部署一个 Detalk Server，在后续的版本中将会改进。
 
+<div id="detalk" style="width: 100%;"></div>
+<script src="https://cdn.jsdelivr.net/gh/detalkjs/client@master/dist/detalk.js"></script>
+<script>
+  detalk.init({
+    // 挂载点 (CSS 选择器)
+    el: "#detalk", // <div id="app"></div>
+    // 后端地址
+    url: "https://detalk.deta.dev/",
+    // 当前页面的路径
+    path: window.location.href,
+    // 是否开启实时预览
+    previewOnInput: false, // default is false
+    // 评论加载完成后
+    onCommentLoaded: function () {
+        // 此处可为代码高亮等插件
+    },
+});
+</script>
