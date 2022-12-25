@@ -35,7 +35,7 @@ export default {
                 // 后端地址
                 url: "https://detalk.deta.dev/",
                 // 当前页面的路径
-                path: window.location.href,
+                path: window.location.pathname,
                 // 是否开启实时预览
                 previewOnInput: false, // default is false
                 // 评论加载完成后
