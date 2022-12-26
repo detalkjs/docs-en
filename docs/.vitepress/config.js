@@ -5,6 +5,15 @@ export default {
     lastUpdated: true,
     head: [
         ["script", { src: "https://cdn.jsdelivr.net/gh/detalkjs/client@master/dist/detalk.js" }],
+        [
+          "script",
+          {
+            "data-ad-client": "ca-pub-5902069866611465",
+            async: true,
+            crossorigin: "anonymous",
+            src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5902069866611465",
+          },
+        ],
     ],
     themeConfig: {
         siteTitle: 'Detalk.js',
