@@ -9,6 +9,7 @@ export default {
     themeConfig: {
         siteTitle: 'Detalk.js',
         sidebar: [
+            { text: '开始', link: '/start.html' },
             {
                 text: '前端配置',
                 items: [
