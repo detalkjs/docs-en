@@ -1,6 +1,6 @@
 {
-  "index_name": "detalk.js.org", // 填写自己的索引名称
-  "start_urls": ["https://detalk.js.org/"], // 填写自己的网站地址
+  "index_name": "detalk.js.org",
+  "start_urls": ["https://detalk.js.org/"],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
