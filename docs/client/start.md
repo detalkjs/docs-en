@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: 前端配置
+title: 初始化
 ---
 
-# 前端配置
+# 初始化
 
 我们默认提供了一个打包文件仅 40kb, Gzip 压缩后仅 10.4kb 的前端 ([detalkjs/client](https://github.com/detalkjs/client))。同时，主要功能得以保留。
 
