@@ -19,7 +19,7 @@ export default {
                 text: '前端配置',
                 items: [
                     { text: '初始化', link: '/client/start.html' },
-                    { text: '高级设置', link: '/client/start.html' },
+                    { text: '高级设置', link: '/client/advanced.html' },
                 ]
             },
 //             {
