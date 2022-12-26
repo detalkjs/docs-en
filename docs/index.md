@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/start.html
+      link: /start.html
     - theme: alt
       text: View on GitHub
       link: https://github.com/detalkjs
