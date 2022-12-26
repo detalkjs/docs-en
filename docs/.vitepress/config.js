@@ -12,24 +12,23 @@ export default {
             {
                 text: '前端配置',
                 items: [
-                    { text: 'Introduction', link: '/introduction' },
-                    { text: 'Getting Started', link: '/getting-started' },
+                    { text: '初始化', link: '/client/start.html' },
                 ]
             },
-            {
-                text: '后端部署',
-                items: [
-                    { text: 'Introduction', link: '/introduction' },
-                    { text: 'Getting Started', link: '/getting-started' },
-                ]
-            },
-            {
-                text: '常见问题',
-                items: [
-                    { text: 'Introduction', link: '/introduction' },
-                    { text: 'Getting Started', link: '/getting-started' },
-                ]
-            }
+//             {
+//                 text: '后端部署',
+//                 items: [
+//                     { text: 'Introduction', link: '/introduction' },
+//                     { text: 'Getting Started', link: '/getting-started' },
+//                 ]
+//             },
+//             {
+//                 text: '常见问题',
+//                 items: [
+//                     { text: 'Introduction', link: '/introduction' },
+//                     { text: 'Getting Started', link: '/getting-started' },
+//                 ]
+//             }
         ],
         editLink: {
             pattern: 'https://github.com/detalkjs/docs/edit/master/docs/:path'
