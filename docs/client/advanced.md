@@ -86,4 +86,6 @@ detalk.init({
 });
 ```
 
+---
+
 <Comment/>
