@@ -4,7 +4,8 @@ export default {
     lang: 'zh-CN',
     lastUpdated: true,
     head: [
-        ["script", { src: "https://cdn.jsdelivr.net/npm/@detalk/static@1.1.6-alpha/dist/detalk.js" }],
+//         ["script", { src: "https://cdn.jsdelivr.net/npm/@detalk/static@1.1.6-alpha/dist/detalk.js" }],
+        ["script", { src: "https://detalk.netlify.app/dist/detalk.js" }],
         [
           "script",
           {
