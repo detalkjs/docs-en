@@ -31,7 +31,8 @@ title: 初始化
 
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@detalk/static@latest/dist/detalk.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@detalk/static@latest/dist/detalk-comment.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@detalk/static@latest/dist/detalk-label.css">
 <script src="https://cdn.jsdelivr.net/npm/@detalk/static@latest/dist/detalk-nocss.js"></script>
 <!-- 我们推荐您将 @latest 替换为所需的版本号 -->
 ```
