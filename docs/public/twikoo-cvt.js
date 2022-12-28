@@ -37,7 +37,7 @@ function twikooCvt() {
             } else {
                 result[i].push({
                     content: o.comment,
-                    timestamp: o.created.$numberLong,
+                    timestamp: Number(o.created.$numberLong),
                     email: o.mail,
                     auth: o.uid,
                     label,
@@ -61,7 +61,7 @@ function twikooCvt() {
                     if (i.master) label = 'admin';
                     j.replies.push({
                         content: i.comment,
-                        timestamp: i.created.$numberLong,
+                        timestamp: Number(i.created.$numberLong),
                         email: i.mail,
                         auth: i.uid,
                         label,
