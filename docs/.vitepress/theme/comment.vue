@@ -42,6 +42,15 @@ export default {
                 onCommentLoaded: function () {
                     // 此处可为代码高亮等插件
                 },
+                label: {
+                    'admin': {
+                        name: '管理员',
+                        class: 'label-green',
+                    }
+                },
+                login: {
+                    github: '8cce104300dc1617f5b7'
+                },
             });
         }, 1000);
     },
