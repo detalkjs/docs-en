@@ -5,6 +5,7 @@ export default {
     lastUpdated: true,
     head: [
         ["script", { src: "https://cdn.jsdelivr.net/gh/detalkjs/client@master/dist/detalk.js" }],
+        ["script", { src: "/twikoo-cvt.js" }],
     ],
     themeConfig: {
         siteTitle: 'Detalk.js',
