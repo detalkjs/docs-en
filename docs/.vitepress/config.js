@@ -34,13 +34,13 @@ export default {
                     { text: '高级设置', link: '/client/advanced.html' },
                 ]
             },
-//             {
-//                 text: '后端部署',
-//                 items: [
-//                     { text: 'Introduction', link: '/introduction' },
-//                     { text: 'Getting Started', link: '/getting-started' },
-//                 ]
-//             },
+            {
+                text: '后端部署',
+                items: [
+                    { text: '一键部署', link: '/server/one-click.html' },
+                    { text: '自定义评论事件', link: '/server/custom-event.html' },
+                ]
+            },
 //             {
 //                 text: '常见问题',
 //                 items: [
