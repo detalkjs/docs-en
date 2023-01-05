@@ -2,11 +2,11 @@
 title: 自定义评论事件
 layout: doc
 ---
-# 自定义评论事件 <Badge type="warning" text="Beta" />
+# 自定义评论事件 <Badge type="warning">Beta</Badge>
 
 Detalk 支持您的评论前和评论后的事件行为进行自定义。
 
-## 注意 <Badge type="danger" text="必读" />
+## 注意 <Badge type="danger">必读</Badge>
 
 > 这是由 `eval` 函数实现的，您可以在管理面板的「后端设置」中的「自定义」对其进行随意修改。
 
@@ -73,6 +73,8 @@ $data.content += 'Hello World'; // 评论内容追加 `Hello World`.
 
 ### 更多示例
 
+<br/>
+
 #### 发起 HTTP 请求
 
 默认已包含 `node-fetch@2`，可以直接使用 `fetch`。
@@ -112,3 +114,6 @@ if ($data.content.match(/测试/g)) {
 
 此函数只有在评论成功后才执行，一般可作为评论通知等。
 
+---
+
+<Comment/>
