@@ -2,11 +2,11 @@
 title: 自定义评论事件
 layout: doc
 ---
-# 自定义评论事件 <Badge type="warning">Beta</Badge>
+# 自定义评论事件 <Badge type="warning" text="Beta" />
 
 Detalk 支持您的评论前和评论后的事件行为进行自定义。
 
-## 注意 <Badge type="danger">必读</Badge>
+## 注意 <Badge type="danger" text="caution" />
 
 > 这是由 `eval` 函数实现的，您可以在管理面板的「后端设置」中的「自定义」对其进行随意修改。
 
