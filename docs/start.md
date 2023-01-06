@@ -21,11 +21,15 @@ title: 开始
 
 Detalk 可以 100% 兼容的运行在 Deta 平台上。使用下方的按键即可一键部署至 Deta，这需要您有一个 [Deta 账号](https://web.deta.sh/)。
 
-> Deta 对个人开发者可以免费使用。
+关于部署到 Deta 的更多信息，请[见此处](/server/one-click.html)。
 
-[![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/detalkjs/server)
+## Detalk 前端
 
-> 目前此方式一个账号只能部署一个 Detalk Server，在后续的版本中将会改进。
+前端打包文件仅 40kb, Gzip 压缩后仅 10.4kb! 同时，主要功能得以保留，有极高的自定义性。
+
+关于 Detalk 前端的更多信息，请[见此处](/client/start.html)。
+
+
 
 ---
 
