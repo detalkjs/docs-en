@@ -86,6 +86,94 @@ detalk.init({
 });
 ```
 
+## [Beta] 从 URL 载入配置
+
+> 此项功能可能不完善。
+
+当 `detalk.init` 传入一个字符串时，Detalk 将默认其为可用的 URL 并发起 `fetch` 请求。
+
+Detalk 将以请求响应的 JSON 进行初始化。
+
+## 多语言
+
+Detalk 支持多语言功能，当没有特别设置时，会默认使用「简体中文」初始化。
+
+如果需要更改多语言设置，你需要更改 `window.DETALK_I18N` 参数。
+
+`window.DETALK_I18N` 默认参数如下：
+
+```js
+window.DETALK_I18N = {
+    loadMore: '加载更多',
+    notAllowedInput: '输入内容不符合要求！',
+    send: '发送',
+    preview: '预览',
+    reply: '回复',
+    replyTo: '回复',
+    cancel: '取消',
+    loadingLoginFrame: '登录窗口加载中...',
+    gotoLoginFrame: '请在登录窗口中继续',
+    waitingInfo: '登录成功，正在获取用户信息...',
+    loginSuccess: '登录成功',
+    failedLoadingInfo: '获取用户信息失败',
+    deleteConfirm: '即将删除 ID:[#ID] 评论，是否继续？',
+    total: '共 [#TOTAL] 条评论',
+    noComment: '暂无评论',
+    up: '正序',
+    down: '倒序',
+    delete: '删除',
+    top: '置顶',
+    login: '登录',
+    required: '必填',
+    optional: '选填',
+    nickname: '昵称',
+    email: '邮箱',
+    link: '网址',
+    day: {
+	justNow: '刚刚',
+	minute: '[#TIME] 分钟前',
+	hour: '[#TIME] 小时前',
+	day: '[#TIME] 天前'
+    }
+}
+```
+
+以更改为繁体中文为例，请在 `detalk.init` 之前定义：
+
+```js
+window.DETALK_I18N = {
+    loadMore: '加載更多',
+    notAllowedInput: '輸入內容不符合要求！',
+    send: '發送',
+    preview: '預覽',
+    reply: '回复',
+    replyTo: '回复',
+    cancel: '取消',
+    loadingLoginFrame: '登錄窗口加載中...',
+    gotoLoginFrame: '請在登錄窗口中繼續',
+    waitingInfo: '登錄成功，正在獲取用戶信息...',
+    loginSuccess: '登錄成功',
+    failedLoadingInfo: '獲取用戶信息失敗',
+    deleteConfirm: '即將刪除 ID:[#ID] 評論，是否繼續？',
+    total: '共 [#TOTAL] 條評論',
+    noComment: '暫無評論',
+    up: '正序',
+    down: '倒序',
+    delete: '刪除',
+    top: '置頂',
+    login: '登錄',
+    required: '必填',
+    optional: '選填',
+    nickname: '暱稱',
+    email: '郵箱',
+    link: '網址',
+    day: {
+	justNow: '剛剛',
+	minute: '[#TIME] 分鐘前',
+	hour: '[#TIME] 小時前',
+	day: '[#TIME] 天前'
+    }
+}
 ---
 
 <Comment/>
