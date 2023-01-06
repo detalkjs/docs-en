@@ -42,6 +42,12 @@ export default {
                      { text: 'API', link: '/server/api.html' },
                 ]
             },
+            {
+                text: '数据迁移',
+                items: [
+                    { text: '从 Twikoo 迁移', link: '/tools/twikoo.html' },
+                ]
+            },
 //             {
 //                 text: '常见问题',
 //                 items: [
