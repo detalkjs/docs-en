@@ -114,6 +114,11 @@ if ($data.content.match(/测试/g)) {
 
 此函数只有在评论成功后才执行，一般可作为评论通知等。
 
+## Awesome Scripts
+
+Detalk.js 正在维护一个仓库，内有对于 Detalk.js 的强大脚本支持。你可以[参见此处](https://github.com/detalkjs/awesome-scripts#readme)。
+
+
 ---
 
 <Comment/>
