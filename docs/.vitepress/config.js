@@ -39,6 +39,7 @@ export default {
                 items: [
                     { text: '一键部署', link: '/server/one-click.html' },
                     { text: '自定义评论事件', link: '/server/custom-event.html' },
+                     { text: 'API', link: '/server/api.html' },
                 ]
             },
 //             {
