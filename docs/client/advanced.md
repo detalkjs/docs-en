@@ -174,6 +174,8 @@ window.DETALK_I18N = {
 	day: '[#TIME] 天前'
     }
 }
+```
+
 ---
 
 <Comment/>
