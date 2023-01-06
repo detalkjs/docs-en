@@ -9,6 +9,8 @@ Detalk Server 有完全的 API 支持。
 
 标注 `*` 则为必须参数。
 
+如无特别标注，所有 API 的 Body 请求参数以 JSON 格式发出。
+
 
 ## 评论
 
@@ -136,6 +138,77 @@ URL 参数：
 }
 ```
 
+### 置顶评论
+
+```
+GET /_api/top
+```
+
+URL 参数：
+
+| 参数名 | 参数值 | 默认值 |
+| :-:   | :-:    | :-:   |
+| `token`*  | 管理员 Token | / |
+| `pid`*  | 页面路径 ID | / |
+| `rpid`*  | 评论唯一 ID | / |
+
+返回示例：
+
+```js
+{
+  "success": true
+}
+```
+
+
+### 取消置顶
+
+```
+DELETE /_api/top
+```
+
+URL 参数：
+
+| 参数名 | 参数值 | 默认值 |
+| :-:   | :-:    | :-:   |
+| `token`*  | 管理员 Token | / |
+| `pid`*  | 页面路径 ID | / |
+
+返回示例：
+
+```js
+{
+  "success": true
+}
+```
+
+### 页面列表
+
+```
+GET /_api/all
+```
+
+URL 参数：
+
+| 参数名 | 参数值 | 默认值 |
+| :-:   | :-:    | :-:   |
+| `token`*  | 管理员 Token | / |
+
+返回示例：
+
+```js
+{
+  "success":true,
+  "data":[
+    // 页面评论存储键
+    "CMT_/",
+    "CMT_/client/start.html",
+    "CMT_/guide/start.html",
+    "CMT_/start.html"
+  ]
+}
+```
+
 ## 用户
 
 ### 登录
@@ -238,3 +311,80 @@ URL 参数：
 }
 ```
 
+## 管理
+
+
+### 更新配置
+
+```
+PUT /_api/config
+```
+
+URL 参数：
+
+| 参数名 | 参数值 | 默认值 |
+| :-:   | :-:    | :-:   |
+| `token`*  | 管理员 Token | / |
+
+Body 参数：
+
+```js
+{
+  // 数据库 Key 对应 Value
+  "[KEY]": "[VALUE]",
+  // ...
+}
+```
+
+返回示例：
+
+```js
+{
+  "success": true
+}
+```
+
+### 获取配置
+
+```
+GET /_api/config
+```
+
+URL 参数：
+
+| 参数名 | 参数值 | 默认值 |
+| :-:   | :-:    | :-:   |
+| `token`*  | 管理员 Token | / |
+
+
+返回示例：
+
+```js
+{
+  "success": true,
+  "data": {},
+}
+```
+
+
+### 导出评论
+
+```
+GET /_api/export
+```
+
+URL 参数：
+
+| 参数名 | 参数值 | 默认值 |
+| :-:   | :-:    | :-:   |
+| `token`*  | 管理员 Token | / |
+
+
+返回示例：
+
+```js
+{
+  "success": true,
+  "data": {},
+}
+```
