@@ -57,7 +57,7 @@ let $data = {
 
 `$data` 变量中的内容将会被默认返回。
 
-代码需遵循 JavaScript 语法，默认包含 `fetch (node-fetch@2)`, `Deta (deta)`, `db (Deta Base)` 等扩展。
+代码需遵循 JavaScript 语法，默认包含 [`fetch (node-fetch@2)`](https://www.npmjs.com/package/node-fetch/v/2.6.7), `Deta (deta)`, [`db (Deta Base)`](https://docs.deta.sh/docs/base/sdk#using) 等扩展。
 
 以下是最简单的一个示例：
 
@@ -113,6 +113,8 @@ if ($data.content.match(/测试/g)) {
 不同的是，评论后数据已被写入数据库，**返回任何 `$data` 都不受影响**。
 
 此函数只有在评论成功后才执行，一般可作为评论通知等。
+
+> 为方便推送评论通知功能，`afterComment` 参数新增 [`nodemailer`](https://www.npmjs.com/package/nodemailer) 依赖。
 
 ## Awesome Scripts
 
