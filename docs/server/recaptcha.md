@@ -41,6 +41,21 @@ reCAPTCHA v3 不需要任何额外的操作，reCAPTCHA 就可以自动分析行
 
 「阈值」则为判定机器人的标准，范围在 `0.0 - 1.0` 之间，不宜设置过高或过低，默认值为 `0.5`。
 
+
+## API 配置
+
+当启用 reCAPTCHA 后，原用的 API 可能因为无法签发 Token 而无法使用。
+
+这时，你需要打开 [控制面板](/server/dashboard.html)，在「后端设置」中找到「账号」一栏，填写 Access Secret。
+
+只需要将 [发送评论参数](https://detalk.js.org/server/api.html#%E5%8F%91%E9%80%81%E8%AF%84%E8%AE%BA) 中的 `recaptcha` 一项的值改为 `Access Secret`，就可以绕过 reCAPTCHA 验证。
+
+所以，你需要保管好你的 Access Secret，防止泄露。
+
+Access Secret 的格式如下，以 JSON 形式输入，每项为字符串，暂时没有限制：
+
+```json
+['29bc48478f692c124897262b88993eea', 'abcdefg-hijklmn-opq-rst-uvw-xyz']
 ---
 
 <Comment />
