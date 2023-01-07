@@ -99,6 +99,7 @@ Body 参数：
 | `id`*  | 页面路径 ID | / |
 | `auth`*  | 用户认证 Token，可前端生成，用于鉴定用户 | / |
 | `url`  | 用户链接 | / |
+| `recaptcha`  | reCAPTCHA 前端 Token，如果后端配置密钥则为必须项 | / |
 | `replyTo`  | 回复评论的唯一 ID | / |
 
 返回示例：
