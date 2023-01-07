@@ -56,6 +56,7 @@ Access Secret 的格式如下，以 JSON 形式输入，每项为字符串，暂
 
 ```json
 ['29bc48478f692c124897262b88993eea', 'abcdefg-hijklmn-opq-rst-uvw-xyz']
+```
 ---
 
 <Comment />
