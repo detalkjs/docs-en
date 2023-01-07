@@ -3,7 +3,7 @@ layout: doc
 title: 前端 reCAPTCHA 设置
 ---
 
-# 后端 reCAPTCHA 设置
+# 前端 reCAPTCHA 设置
 
 ## 注册 reCAPTCHA
 
