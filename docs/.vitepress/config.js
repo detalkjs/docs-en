@@ -31,6 +31,7 @@ export default {
                 text: '前端配置',
                 items: [
                     { text: '初始化', link: '/client/start.html' },
+                    { text: 'reCAPTCHA 人机验证', link: '/client/recaptcha.html' },
                     { text: '高级设置', link: '/client/advanced.html' },
                 ]
             },
@@ -39,6 +40,7 @@ export default {
                 items: [
                     { text: '一键部署', link: '/server/one-click.html' },
                     { text: '控制面板', link: '/server/dashboard.html' },
+                    { text: 'reCAPTCHA 人机验证', link: '/server/recaptcha.html' },
                     { text: '自定义评论事件', link: '/server/custom-event.html' },
                      { text: 'API 文档', link: '/server/api.html' },
                 ]
