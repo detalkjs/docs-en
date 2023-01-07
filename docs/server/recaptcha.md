@@ -52,10 +52,10 @@ reCAPTCHA v3 不需要任何额外的操作，reCAPTCHA 就可以自动分析行
 
 所以，你需要保管好你的 Access Secret，防止泄露。
 
-Access Secret 的格式如下，以 JSON 形式输入，每项为字符串，暂时没有限制：
+Access Secret 的格式如下，以 JSON 格式输入，每项为字符串，字符串暂时没有限制：
 
 ```json
-['29bc48478f692c124897262b88993eea', 'abcdefg-hijklmn-opq-rst-uvw-xyz']
+["29bc48478f692c124897262b88993eea", "abcdefg-hijklmn-opq-rst-uvw-xyz"]
 ```
 ---
 
