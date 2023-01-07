@@ -45,5 +45,9 @@ detalk.init({
   // 是否已经加载 reCAPTCHA。如这项设为 true，则不会再加载 reCAPTCHA 代码。
   recaptchaLoaded: false,
 });
+```
 
+---
+
+<Comment />
 
