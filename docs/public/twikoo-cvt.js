@@ -75,11 +75,11 @@ function twikooCvt() {
                 }
             }
         }
+        document.getElementById("twikoo-cvt-text").value = JSON.stringify(result, null, 4);
+        alert('Twikoo 评论数据已转换完成！');
     } catch(e) {
         alert('评论转换失败，数据可能不是正确的格式，请检查控制台。');
         console.warn(e);
     }
 
-    document.getElementById("twikoo-cvt-text").value = JSON.stringify(result, null, 4);
-    alert('Twikoo 评论数据已转换完成！');
 }
