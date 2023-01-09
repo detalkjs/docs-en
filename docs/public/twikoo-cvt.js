@@ -46,6 +46,7 @@ function twikooCvt() {
                         hide: o.isSpam,
                         url: o.link,
                         rpid: o._id,
+                        nickname: i.
                     });
                 }
             }
@@ -69,7 +70,8 @@ function twikooCvt() {
                             ua: i.ua,
                             hide: i.isSpam,
                             url: i.link,
-                            rpid: i._id
+                            rpid: i._id,
+                            nickname: i._nick,
                         });
                     }
                 }
