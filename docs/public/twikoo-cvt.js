@@ -71,7 +71,7 @@ function twikooCvt() {
                             hide: i.isSpam,
                             url: i.link,
                             rpid: i._id,
-                            nickname: i._nick,
+                            nickname: i.nick,
                         });
                     }
                 }
