@@ -46,7 +46,7 @@ function twikooCvt() {
                         hide: o.isSpam,
                         url: o.link,
                         rpid: o._id,
-                        nickname: i.
+                        nickname: o.nick,
                     });
                 }
             }
