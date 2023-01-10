@@ -40,6 +40,7 @@ export default {
                 items: [
                     { text: '一键部署', link: '/server/one-click.html' },
                     { text: '控制面板', link: '/server/dashboard.html' },
+                    { text: '更新程序', link: '/server/update.html' },
                     { text: 'reCAPTCHA 人机验证', link: '/server/recaptcha.html' },
                     { text: '自定义评论事件', link: '/server/custom-event.html' },
                      { text: 'API 文档', link: '/server/api.html' },
