@@ -31,6 +31,7 @@ export default {
                 text: '前端配置',
                 items: [
                     { text: '初始化', link: '/client/start.html' },
+                    { text: 'GitHub 登录', link: '/client/github-login.html' },
                     { text: 'reCAPTCHA 人机验证', link: '/client/recaptcha.html' },
                     { text: '高级设置', link: '/client/advanced.html' },
                 ]
