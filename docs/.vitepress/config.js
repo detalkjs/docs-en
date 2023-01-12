@@ -25,6 +25,7 @@ export default {
                 text: '开始',
                 items: [
                     { text: '开始', link: '/start.html' },
+                    { text: '使用 Detalk.js 的站点', link: '/sites.html' },
                 ]
             },
             {
