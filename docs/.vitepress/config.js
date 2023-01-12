@@ -47,6 +47,7 @@ export default {
                     { text: '更新代码', link: '/server/update.html' },
                     { text: 'reCAPTCHA 人机验证', link: '/server/recaptcha.html' },
                     { text: '自定义评论事件', link: '/server/custom-event.html' },
+                    { text: '在本地运行', link: '/server/run-on-local.html' },
                      { text: 'API 文档', link: '/server/api.html' },
                 ]
             },
