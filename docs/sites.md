@@ -12,7 +12,7 @@ layout: doc
 
 ## 主题
 
-- [oCoke/hexo-theme-miracle](oCoke/hexo-theme-miracle)
+- [oCoke/hexo-theme-miracle](https://github.com/oCoke/hexo-theme-miracle)
 
 ## 提交
 
