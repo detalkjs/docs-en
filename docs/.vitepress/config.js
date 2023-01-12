@@ -30,6 +30,7 @@ export default {
             },
             {
                 text: '前端配置',
+                collapsible: true,
                 items: [
                     { text: '初始化', link: '/client/start.html' },
                     { text: 'GitHub 登录', link: '/client/github-login.html' },
@@ -39,6 +40,7 @@ export default {
             },
             {
                 text: '后端部署',
+                collapsible: true,
                 items: [
                     { text: '一键部署', link: '/server/one-click.html' },
                     { text: '控制面板', link: '/server/dashboard.html' },
