@@ -130,10 +130,10 @@ window.DETALK_I18N = {
     email: '邮箱',
     link: '网址',
     day: {
-	justNow: '刚刚',
-	minute: '[#TIME] 分钟前',
-	hour: '[#TIME] 小时前',
-	day: '[#TIME] 天前'
+		justNow: '刚刚',
+		minute: '[#TIME] 分钟前',
+		hour: '[#TIME] 小时前',
+		day: '[#TIME] 天前'
     }
 }
 ```
@@ -168,13 +168,38 @@ window.DETALK_I18N = {
     email: '郵箱',
     link: '網址',
     day: {
-	justNow: '剛剛',
-	minute: '[#TIME] 分鐘前',
-	hour: '[#TIME] 小時前',
-	day: '[#TIME] 天前'
+		justNow: '剛剛',
+		minute: '[#TIME] 分鐘前',
+		hour: '[#TIME] 小時前',
+		day: '[#TIME] 天前'
     }
 }
 ```
+
+## 自定义管理面板地址
+
+如果需要自定义管理面板地址，请在 `detalk.init` 时指定。
+
+```js
+detalk.init({
+	...
+    // 自定义管理面板地址
+    DASHBOARD_URL: 'https://detalk-dash.netlify.app',
+    ...
+});
+```
+
+## 粘贴上传图片
+
+```js
+  detalk.init({
+    ...
+    pasteImage: async (blob) => {
+	// 传入的是图片 Blob
+	// ...
+    }
+    ...
+});
 
 ---
 
