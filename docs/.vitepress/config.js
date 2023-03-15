@@ -43,6 +43,7 @@ export default {
                 collapsible: true,
                 items: [
                     { text: '一键部署', link: '/server/one-click.html' },
+                    { text: '迁移至 Deta Space', link: '/server/migrate-detalkjs-to-deta-space.html' },
                     { text: '控制面板', link: '/server/dashboard.html' },
                     { text: '更新代码', link: '/server/update.html' },
                     { text: 'reCAPTCHA 人机验证', link: '/server/recaptcha.html' },
