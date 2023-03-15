@@ -3,6 +3,9 @@ layout: doc
 title: 一键部署
 ---
 
+> **此内容已过时！新版本（v2.0.0+）仅支持 Deta Space！**
+
+
 # 一键部署
 
 Detalk 可以 100% 兼容的运行在 Deta 平台上。使用下方的按键即可一键部署至 Deta，这需要您有一个 [Deta 账号](https://web.deta.sh/)。
