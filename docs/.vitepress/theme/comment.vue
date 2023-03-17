@@ -59,6 +59,10 @@ export default {
                     'admin': {
                         name: '管理员',
                         class: 'label-green',
+                    },
+                    'github': {
+                        name: 'GitHub',
+                        class: 'label-blue',
                     }
                 },
                 login: {
