@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Detalk.js
   text: A simple comment plugin.
-  tagline: 🎉 Detalk.js 是一款简洁、轻量的评论系统。
+  tagline: 🎉 Detalk is a simple comment plugin based on Deta Micros and Deta Bases. 
   actions:
     - theme: brand
       text: Get Started
@@ -15,12 +15,12 @@ hero:
 
 features:
   - icon: ⚡️
-    title: 轻量化
-    details: 前端打包文件仅 40kb, Gzip 压缩后仅 10.4kb! 同时，主要功能得以保留。
+    title: Lightweight
+    details: The front-end packaged file is only 60kb, and after Gzip compression, it's only 14kb! At the same time, the main functions are preserved.
   - icon: 🛠️
-    title: 自定义
-    details: Detalk 有着完全的后端 API, 您可以自己构建，也可以自由载入官方前端。
+    title: Customizable
+    details: Detalk.js provides high customizability, complete API support, and also has script plugin functionality.
   - icon: 🎉
-    title: 简单、快速
-    details: Detalk 部署在 Deta 上，有着极快的响应速度。无需额外配置数据库，一键部署。
+    title: Simple & Fast
+    details: Detalk is deployed on Deta with extremely fast response speed. No need to configure a separate database, one-click deployment.
 ---
